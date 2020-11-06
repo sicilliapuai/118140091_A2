@@ -1,0 +1,94 @@
+.wrap{
+	background: skyblue;
+	width: 784px;
+	margin: 10px auto;
+}
+
+/*bagian header*/
+.wrap .header{
+	background-color : indianred;
+	/*dengan height: 50px;*/
+	
+	width: 784px;
+	height: 200px;
+}
+
+
+
+
+.clear{
+	clear: both;
+}
+.body{
+	height: auto;
+}
+
+/* bagian sidebar*/
+
+.wrap .sidebar{
+	background: skyblue;
+	float: left;
+	width: 200px;
+	height: auto;
+}
+
+.wrap .sidebar .widged{
+	width				: 99%;
+	background-bottom	: 5px;
+	background 			: skyblue;
+	border-top 			: 1px solid black;
+	border-bottom		: 1px solid black;
+	border-right  		: 1px solid black;
+	border-left			: 1px solid black;
+	font-size			: 100%;
+	margin 				: 0px 0px 5px 0px;
+}
+
+/*pengaturan huruf judul widged*/
+.wrap .sidebar .judulwidged{
+	background 			: ;
+	padding 			: 5px 10px 5px 10px;
+	margin 				: 0px 0px 0px 0px;
+	text-align			: center;
+	color				: black;
+	font-weight			: bold;
+	font-size			: 15px;
+	margin-bottom		: 5px;
+}
+.wrap .sidebar .widged ul {
+	margin 				: 0px 0px 0px 0px;
+	padding 			: 0px 0px 0px 0px;
+	list-style-type		: none;
+}
+.wrap .sidebar .widged li {
+	padding 			: 0px 0px 0px 0px; 		/*top right bottom left*/
+	background-position	: left;
+	background-repeat	: no-repeat;
+	color				: black;
+}
+.wrap .sidebar .widged li a {
+	color 				: black;
+	border-bottom		: 1px dotted black;
+	text-decoration		: none;
+	display  			: block;
+	margin-bottom		: 5px;
+	padding 			: 4px 5px 3px 10px;
+}
+.wrap .sidebar .widged li a:hover {
+	color 				: blue;
+}
+
+/*akhir sidebar*/
+
+.wrap .body .content{
+	background: steelblue;
+	float: right;
+	width: 584px;
+	height: auto;
+}
+
+.wrap .footer{
+	background-color: #9370DB;
+	width: 784px;
+	height: 100px;
+}
