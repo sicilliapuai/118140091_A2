@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Data Mahasiswa</title>
+</head>
+<body>
+	<h1>DATA MAHASISWA PENS</h1>
+	<h1>=========================</h1>
+	<h1>TAMBAH DATA</h1>
+	<form action="prosesTambah.php" method="post">
+		NRP:<input type="text" name="NRP" size="40" maxlength="50"> <br>
+		Nama:<input type="text" name="Nama" size="40" maxlength="50"> <br>
+		Foto:<input type="file" name="Foto" size="40" maxlength="50"> <br>
+		Jurusan:<select name="Jurusan">
+			<option value="Telekomunikasi">Telekomunikasi</option>
+			<option value="Elka">Elka</option>
+			<option value="IT">IT</option>
+			<option value="Elin">Elin</option>
+		</select>
+		<input type="submit" value="Tambah">
+	</form>
+
+	<h1>=========================</h1>
+	<h1>SEARCH DATA</h1>
+	<form action="hasilSearch.php" method="post">
+		<select name="kolom">
+			<option value="nama">Nama</option>
+		</select>
+		Nama
+		<input type="text" type="text" name="cari">
+		<input type="submit" value="cari">
+	</form>
+
+</body>
+</html>
