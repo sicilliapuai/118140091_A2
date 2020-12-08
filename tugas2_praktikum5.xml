@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataDiri>
+	<nama>
+		<awal>Sicillia</awal>
+		<akhir>Putri Aisyah</akhir>
+	</nama>
+
+	<jenisKelamin>Perempuan</jenisKelamin>
+
+	<alamat>
+		<desa>Talang Kelapa</desa>
+		<kecamatan>Alang-Alang Lebar</kecamatan>
+		<kabupaten>Kota Palembang</kabupaten>
+	</alamat>
+
+	<sosialMedia>
+		<instagram>sicilliapuai</instagram>
+		<line>sicilliapuai88</line>
+	</sosialMedia>
+
+</dataDiri>
